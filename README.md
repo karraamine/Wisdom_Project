@@ -40,4 +40,4 @@ python3 app.py
 ![wrong_proverb](images-wisdom/wrong_proverb_esp.png)
 
 ## Team
-This project was done by: [Oubayhe](https://github.com/Oubayhe), [karraamine](https://github.com/karraamine), [Mouadspace](https://github.com/Mouadspace), [MedBenali0](https://github.com/MedBenali0)
+This project was done by:  [karraamine](https://github.com/karraamine), [Oubayhe](https://github.com/Oubayhe), [Mouadspace](https://github.com/Mouadspace), [MedBenali0](https://github.com/MedBenali0)
