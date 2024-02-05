@@ -1,4 +1,4 @@
-# Wisdom: Multilingual Proverbs Compiler
+# Wisdom
 Wisdom is a multilingual proverbs compiler designed to work across five languages: French, English, Spanish, Italian, and Moroccan dialect (Darija). Leveraging lex and yacc, the project configures and processes the lexical, syntactic, and semantic aspects of each proverb and then it employs helper functions (helper_functions.py) and a proverbs object (proverbs_dictionary) to facilitate the equivalent in the meaning (not word to word translation) of proverbs across other cultures.
 
 The user interface is crafted using tkinter, chosen for its resemblance to a chat application, enhancing user appeal and friendliness.
