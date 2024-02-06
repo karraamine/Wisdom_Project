@@ -1,0 +1,1392 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> sentence
+Rule 1     sentence -> ADJECTIVE NOUN VERB ADJECTIVE NOUN
+Rule 2     sentence -> VERB CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+Rule 3     sentence -> NOUN VERB ARTICAL ADJECTIVE NOUN
+Rule 4     sentence -> PRONOUN ADVERB VERB CONJUNCTION PRONOUN VERB GERUND
+Rule 5     sentence -> CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION VERB PRONOUN
+Rule 6     sentence -> NOUN PREPOSITION PREPOSITION NOUN VERB ADVERB
+Rule 7     sentence -> PRONOUN VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN
+Rule 8     sentence -> NOUN VERB PRONOUN
+Rule 9     sentence -> VERB PREPOSITION VERB PREPOSITION PRONOUN VERB
+Rule 10    sentence -> NOUN ADJECTIVE VERB
+Rule 11    sentence -> VERB NOUN CONJUNCTION ADJECTIVE
+Rule 12    sentence -> VERB NOUN VERB NOUN NOUN
+Rule 13    sentence -> VERB NOUN VERB NOUN
+Rule 14    sentence -> PREPOSITION VERB PREPOSITION VERB
+Rule 15    sentence -> ADJECTIVE ADJECTIVE PREPOSITION ADJECTIVE
+Rule 16    sentence -> CONJUNCTION VERB CONJUNCTION NOUN VERB
+Rule 17    sentence -> CONJUNCTION VERB NOUN VERB CONJUNCTION VERB PRONOUN
+Rule 18    sentence -> NOUN NOUN VERB NOUN
+Rule 19    sentence -> NOUN CONJUNCTION VERB CONTRUDICTION CONJUNCTION VERB
+Rule 20    sentence -> NOUN ADJECTIVE PREPOSITION NOUN ADJECTIVE
+Rule 21    sentence -> ADJECTIVE NOUN VERB ARTICAL NOUN ADJECTIVE
+Rule 22    sentence -> NOUN ADJECTIVE VERB CONJUNCTION VERB
+Rule 23    sentence -> ARTICAL NOUN VERB ARTICAL ADJECTIVE NOUN
+Rule 24    sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+Rule 25    sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB
+Rule 26    sentence -> NOUN PRONOUN VERB CONJUNCTION PRONOUN PRONOUN VERB
+Rule 27    sentence -> ARTICAL NOUN ADVERB VERB
+Rule 28    sentence -> NOUN VERB PREPOSITION PRONOUN PRONOUN
+Rule 29    sentence -> ARTICAL PRONOUN VERB NOUN ARTICAL VERB
+Rule 30    sentence -> NOUN PRONOUN VERB ADVERB VERB
+Rule 31    sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADJECTIVE
+Rule 32    sentence -> ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN
+Rule 33    sentence -> NOUN VERB ARTICAL NOUN
+Rule 34    sentence -> ARTICAL NOUN VERB ADVERB ADJECTIVE
+Rule 35    sentence -> PRONOUN ADVERB VERB ADVERB VERB
+Rule 36    sentence -> PRONOUN CONJUNCTION VERB CONJUNCTION VERB
+Rule 37    sentence -> PRONOUN ADVERB PRONOUN VERB ADVERB PRONOUN VERB
+Rule 38    sentence -> VERB ADJECTIVE CONJUNCTION VERB ADJECTIVE
+Rule 39    sentence -> PRONOUN VERB ADVERB VERB NOUN
+Rule 40    sentence -> NOUN CONJUNCTION VERB ADVERB VERB
+Rule 41    sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADVERB ADJECTIVE
+Rule 42    sentence -> ARTICAL NOUN VERB ADJECTIVE PREPOSITION NOUN
+
+Terminals, with rules where they appear
+
+ADJECTIVE            : 1 1 2 3 10 11 15 15 15 20 20 21 21 22 23 24 24 31 34 38 38 41 42
+ADVERB               : 4 6 24 25 27 30 32 34 35 35 37 37 39 40 41
+ARTICAL              : 2 3 5 21 23 23 24 25 27 29 29 31 31 32 32 33 34 41 41 42
+CONJUNCTION          : 2 4 5 7 11 16 16 17 17 19 19 22 24 26 36 36 38 40
+CONTRUDICTION        : 5 7 19
+GERUND               : 4
+NOUN                 : 1 1 2 3 3 5 6 6 8 10 11 12 12 12 13 13 16 17 18 18 18 19 20 20 21 21 22 23 23 24 25 26 27 28 29 30 31 31 32 32 33 33 34 39 40 41 41 42 42
+PREPOSITION          : 6 6 9 9 14 14 15 20 25 28 32 42
+PRONOUN              : 4 4 5 7 7 7 7 8 9 17 25 25 26 26 26 28 28 29 30 32 35 36 37 37 37 39
+VERB                 : 1 2 2 3 4 4 5 5 6 7 8 9 9 9 10 11 12 12 13 13 14 14 16 16 17 17 17 18 19 19 21 22 22 23 24 24 25 25 25 26 26 27 28 29 29 30 30 31 32 33 34 35 35 36 36 37 37 38 38 39 39 40 40 41 42
+error                : 
+
+Nonterminals, with rules where they appear
+
+sentence             : 0
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . sentence
+    (1) sentence -> . ADJECTIVE NOUN VERB ADJECTIVE NOUN
+    (2) sentence -> . VERB CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+    (3) sentence -> . NOUN VERB ARTICAL ADJECTIVE NOUN
+    (4) sentence -> . PRONOUN ADVERB VERB CONJUNCTION PRONOUN VERB GERUND
+    (5) sentence -> . CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION VERB PRONOUN
+    (6) sentence -> . NOUN PREPOSITION PREPOSITION NOUN VERB ADVERB
+    (7) sentence -> . PRONOUN VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN
+    (8) sentence -> . NOUN VERB PRONOUN
+    (9) sentence -> . VERB PREPOSITION VERB PREPOSITION PRONOUN VERB
+    (10) sentence -> . NOUN ADJECTIVE VERB
+    (11) sentence -> . VERB NOUN CONJUNCTION ADJECTIVE
+    (12) sentence -> . VERB NOUN VERB NOUN NOUN
+    (13) sentence -> . VERB NOUN VERB NOUN
+    (14) sentence -> . PREPOSITION VERB PREPOSITION VERB
+    (15) sentence -> . ADJECTIVE ADJECTIVE PREPOSITION ADJECTIVE
+    (16) sentence -> . CONJUNCTION VERB CONJUNCTION NOUN VERB
+    (17) sentence -> . CONJUNCTION VERB NOUN VERB CONJUNCTION VERB PRONOUN
+    (18) sentence -> . NOUN NOUN VERB NOUN
+    (19) sentence -> . NOUN CONJUNCTION VERB CONTRUDICTION CONJUNCTION VERB
+    (20) sentence -> . NOUN ADJECTIVE PREPOSITION NOUN ADJECTIVE
+    (21) sentence -> . ADJECTIVE NOUN VERB ARTICAL NOUN ADJECTIVE
+    (22) sentence -> . NOUN ADJECTIVE VERB CONJUNCTION VERB
+    (23) sentence -> . ARTICAL NOUN VERB ARTICAL ADJECTIVE NOUN
+    (24) sentence -> . ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+    (25) sentence -> . ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB
+    (26) sentence -> . NOUN PRONOUN VERB CONJUNCTION PRONOUN PRONOUN VERB
+    (27) sentence -> . ARTICAL NOUN ADVERB VERB
+    (28) sentence -> . NOUN VERB PREPOSITION PRONOUN PRONOUN
+    (29) sentence -> . ARTICAL PRONOUN VERB NOUN ARTICAL VERB
+    (30) sentence -> . NOUN PRONOUN VERB ADVERB VERB
+    (31) sentence -> . ARTICAL NOUN ARTICAL NOUN VERB ADJECTIVE
+    (32) sentence -> . ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN
+    (33) sentence -> . NOUN VERB ARTICAL NOUN
+    (34) sentence -> . ARTICAL NOUN VERB ADVERB ADJECTIVE
+    (35) sentence -> . PRONOUN ADVERB VERB ADVERB VERB
+    (36) sentence -> . PRONOUN CONJUNCTION VERB CONJUNCTION VERB
+    (37) sentence -> . PRONOUN ADVERB PRONOUN VERB ADVERB PRONOUN VERB
+    (38) sentence -> . VERB ADJECTIVE CONJUNCTION VERB ADJECTIVE
+    (39) sentence -> . PRONOUN VERB ADVERB VERB NOUN
+    (40) sentence -> . NOUN CONJUNCTION VERB ADVERB VERB
+    (41) sentence -> . ARTICAL NOUN ARTICAL NOUN VERB ADVERB ADJECTIVE
+    (42) sentence -> . ARTICAL NOUN VERB ADJECTIVE PREPOSITION NOUN
+
+    ADJECTIVE       shift and go to state 2
+    VERB            shift and go to state 4
+    NOUN            shift and go to state 3
+    PRONOUN         shift and go to state 7
+    CONTRUDICTION   shift and go to state 9
+    PREPOSITION     shift and go to state 10
+    CONJUNCTION     shift and go to state 5
+    ARTICAL         shift and go to state 6
+    ADVERB          shift and go to state 8
+
+    sentence                       shift and go to state 1
+
+state 1
+
+    (0) S' -> sentence .
+
+
+
+state 2
+
+    (1) sentence -> ADJECTIVE . NOUN VERB ADJECTIVE NOUN
+    (15) sentence -> ADJECTIVE . ADJECTIVE PREPOSITION ADJECTIVE
+    (21) sentence -> ADJECTIVE . NOUN VERB ARTICAL NOUN ADJECTIVE
+
+    NOUN            shift and go to state 12
+    ADJECTIVE       shift and go to state 11
+
+
+state 3
+
+    (3) sentence -> NOUN . VERB ARTICAL ADJECTIVE NOUN
+    (6) sentence -> NOUN . PREPOSITION PREPOSITION NOUN VERB ADVERB
+    (8) sentence -> NOUN . VERB PRONOUN
+    (10) sentence -> NOUN . ADJECTIVE VERB
+    (18) sentence -> NOUN . NOUN VERB NOUN
+    (19) sentence -> NOUN . CONJUNCTION VERB CONTRUDICTION CONJUNCTION VERB
+    (20) sentence -> NOUN . ADJECTIVE PREPOSITION NOUN ADJECTIVE
+    (22) sentence -> NOUN . ADJECTIVE VERB CONJUNCTION VERB
+    (26) sentence -> NOUN . PRONOUN VERB CONJUNCTION PRONOUN PRONOUN VERB
+    (28) sentence -> NOUN . VERB PREPOSITION PRONOUN PRONOUN
+    (30) sentence -> NOUN . PRONOUN VERB ADVERB VERB
+    (33) sentence -> NOUN . VERB ARTICAL NOUN
+    (40) sentence -> NOUN . CONJUNCTION VERB ADVERB VERB
+
+    VERB            shift and go to state 14
+    PREPOSITION     shift and go to state 16
+    ADJECTIVE       shift and go to state 15
+    NOUN            shift and go to state 13
+    CONJUNCTION     shift and go to state 18
+    PRONOUN         shift and go to state 17
+
+
+state 4
+
+    (2) sentence -> VERB . CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+    (9) sentence -> VERB . PREPOSITION VERB PREPOSITION PRONOUN VERB
+    (11) sentence -> VERB . NOUN CONJUNCTION ADJECTIVE
+    (12) sentence -> VERB . NOUN VERB NOUN NOUN
+    (13) sentence -> VERB . NOUN VERB NOUN
+    (38) sentence -> VERB . ADJECTIVE CONJUNCTION VERB ADJECTIVE
+
+    CONJUNCTION     shift and go to state 19
+    PREPOSITION     shift and go to state 22
+    NOUN            shift and go to state 20
+    ADJECTIVE       shift and go to state 21
+
+
+state 5
+
+    (16) sentence -> CONJUNCTION . VERB CONJUNCTION NOUN VERB
+    (17) sentence -> CONJUNCTION . VERB NOUN VERB CONJUNCTION VERB PRONOUN
+
+    VERB            shift and go to state 23
+
+
+state 6
+
+    (23) sentence -> ARTICAL . NOUN VERB ARTICAL ADJECTIVE NOUN
+    (27) sentence -> ARTICAL . NOUN ADVERB VERB
+    (29) sentence -> ARTICAL . PRONOUN VERB NOUN ARTICAL VERB
+    (31) sentence -> ARTICAL . NOUN ARTICAL NOUN VERB ADJECTIVE
+    (34) sentence -> ARTICAL . NOUN VERB ADVERB ADJECTIVE
+    (41) sentence -> ARTICAL . NOUN ARTICAL NOUN VERB ADVERB ADJECTIVE
+    (42) sentence -> ARTICAL . NOUN VERB ADJECTIVE PREPOSITION NOUN
+
+    NOUN            shift and go to state 24
+    PRONOUN         shift and go to state 25
+
+
+state 7
+
+    (4) sentence -> PRONOUN . ADVERB VERB CONJUNCTION PRONOUN VERB GERUND
+    (7) sentence -> PRONOUN . VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN
+    (35) sentence -> PRONOUN . ADVERB VERB ADVERB VERB
+    (36) sentence -> PRONOUN . CONJUNCTION VERB CONJUNCTION VERB
+    (37) sentence -> PRONOUN . ADVERB PRONOUN VERB ADVERB PRONOUN VERB
+    (39) sentence -> PRONOUN . VERB ADVERB VERB NOUN
+
+    ADVERB          shift and go to state 26
+    VERB            shift and go to state 27
+    CONJUNCTION     shift and go to state 28
+
+
+state 8
+
+    (24) sentence -> ADVERB . VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+    (25) sentence -> ADVERB . VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB
+    (32) sentence -> ADVERB . PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN
+
+    VERB            shift and go to state 29
+    PRONOUN         shift and go to state 30
+
+
+state 9
+
+    (5) sentence -> CONTRUDICTION . VERB ARTICAL NOUN CONJUNCTION VERB PRONOUN
+
+    VERB            shift and go to state 31
+
+
+state 10
+
+    (14) sentence -> PREPOSITION . VERB PREPOSITION VERB
+
+    VERB            shift and go to state 32
+
+
+state 11
+
+    (15) sentence -> ADJECTIVE ADJECTIVE . PREPOSITION ADJECTIVE
+
+    PREPOSITION     shift and go to state 33
+
+
+state 12
+
+    (1) sentence -> ADJECTIVE NOUN . VERB ADJECTIVE NOUN
+    (21) sentence -> ADJECTIVE NOUN . VERB ARTICAL NOUN ADJECTIVE
+
+    VERB            shift and go to state 34
+
+
+state 13
+
+    (18) sentence -> NOUN NOUN . VERB NOUN
+
+    VERB            shift and go to state 35
+
+
+state 14
+
+    (3) sentence -> NOUN VERB . ARTICAL ADJECTIVE NOUN
+    (8) sentence -> NOUN VERB . PRONOUN
+    (28) sentence -> NOUN VERB . PREPOSITION PRONOUN PRONOUN
+    (33) sentence -> NOUN VERB . ARTICAL NOUN
+
+    ARTICAL         shift and go to state 36
+    PRONOUN         shift and go to state 37
+    PREPOSITION     shift and go to state 38
+
+
+state 15
+
+    (10) sentence -> NOUN ADJECTIVE . VERB
+    (20) sentence -> NOUN ADJECTIVE . PREPOSITION NOUN ADJECTIVE
+    (22) sentence -> NOUN ADJECTIVE . VERB CONJUNCTION VERB
+
+    VERB            shift and go to state 39
+    PREPOSITION     shift and go to state 40
+
+
+state 16
+
+    (6) sentence -> NOUN PREPOSITION . PREPOSITION NOUN VERB ADVERB
+
+    PREPOSITION     shift and go to state 41
+
+
+state 17
+
+    (26) sentence -> NOUN PRONOUN . VERB CONJUNCTION PRONOUN PRONOUN VERB
+    (30) sentence -> NOUN PRONOUN . VERB ADVERB VERB
+
+    VERB            shift and go to state 42
+
+
+state 18
+
+    (19) sentence -> NOUN CONJUNCTION . VERB CONTRUDICTION CONJUNCTION VERB
+    (40) sentence -> NOUN CONJUNCTION . VERB ADVERB VERB
+
+    VERB            shift and go to state 43
+
+
+state 19
+
+    (2) sentence -> VERB CONJUNCTION . ARTICAL NOUN VERB ADJECTIVE
+
+    ARTICAL         shift and go to state 44
+
+
+state 20
+
+    (11) sentence -> VERB NOUN . CONJUNCTION ADJECTIVE
+    (12) sentence -> VERB NOUN . VERB NOUN NOUN
+    (13) sentence -> VERB NOUN . VERB NOUN
+
+    CONJUNCTION     shift and go to state 46
+    VERB            shift and go to state 45
+
+
+state 21
+
+    (38) sentence -> VERB ADJECTIVE . CONJUNCTION VERB ADJECTIVE
+
+    CONJUNCTION     shift and go to state 47
+
+
+state 22
+
+    (9) sentence -> VERB PREPOSITION . VERB PREPOSITION PRONOUN VERB
+
+    VERB            shift and go to state 48
+
+
+state 23
+
+    (16) sentence -> CONJUNCTION VERB . CONJUNCTION NOUN VERB
+    (17) sentence -> CONJUNCTION VERB . NOUN VERB CONJUNCTION VERB PRONOUN
+
+    CONJUNCTION     shift and go to state 49
+    NOUN            shift and go to state 50
+
+
+state 24
+
+    (23) sentence -> ARTICAL NOUN . VERB ARTICAL ADJECTIVE NOUN
+    (27) sentence -> ARTICAL NOUN . ADVERB VERB
+    (31) sentence -> ARTICAL NOUN . ARTICAL NOUN VERB ADJECTIVE
+    (34) sentence -> ARTICAL NOUN . VERB ADVERB ADJECTIVE
+    (41) sentence -> ARTICAL NOUN . ARTICAL NOUN VERB ADVERB ADJECTIVE
+    (42) sentence -> ARTICAL NOUN . VERB ADJECTIVE PREPOSITION NOUN
+
+    VERB            shift and go to state 52
+    ADVERB          shift and go to state 53
+    ARTICAL         shift and go to state 51
+
+
+state 25
+
+    (29) sentence -> ARTICAL PRONOUN . VERB NOUN ARTICAL VERB
+
+    VERB            shift and go to state 54
+
+
+state 26
+
+    (4) sentence -> PRONOUN ADVERB . VERB CONJUNCTION PRONOUN VERB GERUND
+    (35) sentence -> PRONOUN ADVERB . VERB ADVERB VERB
+    (37) sentence -> PRONOUN ADVERB . PRONOUN VERB ADVERB PRONOUN VERB
+
+    VERB            shift and go to state 56
+    PRONOUN         shift and go to state 55
+
+
+state 27
+
+    (7) sentence -> PRONOUN VERB . PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN
+    (39) sentence -> PRONOUN VERB . ADVERB VERB NOUN
+
+    PRONOUN         shift and go to state 57
+    ADVERB          shift and go to state 58
+
+
+state 28
+
+    (36) sentence -> PRONOUN CONJUNCTION . VERB CONJUNCTION VERB
+
+    VERB            shift and go to state 59
+
+
+state 29
+
+    (24) sentence -> ADVERB VERB . ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+    (25) sentence -> ADVERB VERB . ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB
+
+    ADJECTIVE       shift and go to state 60
+    ARTICAL         shift and go to state 61
+
+
+state 30
+
+    (32) sentence -> ADVERB PRONOUN . VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN
+
+    VERB            shift and go to state 62
+
+
+state 31
+
+    (5) sentence -> CONTRUDICTION VERB . ARTICAL NOUN CONJUNCTION VERB PRONOUN
+
+    ARTICAL         shift and go to state 63
+
+
+state 32
+
+    (14) sentence -> PREPOSITION VERB . PREPOSITION VERB
+
+    PREPOSITION     shift and go to state 64
+
+
+state 33
+
+    (15) sentence -> ADJECTIVE ADJECTIVE PREPOSITION . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 65
+
+
+state 34
+
+    (1) sentence -> ADJECTIVE NOUN VERB . ADJECTIVE NOUN
+    (21) sentence -> ADJECTIVE NOUN VERB . ARTICAL NOUN ADJECTIVE
+
+    ADJECTIVE       shift and go to state 66
+    ARTICAL         shift and go to state 67
+
+
+state 35
+
+    (18) sentence -> NOUN NOUN VERB . NOUN
+
+    NOUN            shift and go to state 68
+
+
+state 36
+
+    (3) sentence -> NOUN VERB ARTICAL . ADJECTIVE NOUN
+    (33) sentence -> NOUN VERB ARTICAL . NOUN
+
+    ADJECTIVE       shift and go to state 70
+    NOUN            shift and go to state 69
+
+
+state 37
+
+    (8) sentence -> NOUN VERB PRONOUN .
+
+    $end            reduce using rule 8 (sentence -> NOUN VERB PRONOUN .)
+
+
+state 38
+
+    (28) sentence -> NOUN VERB PREPOSITION . PRONOUN PRONOUN
+
+    PRONOUN         shift and go to state 71
+
+
+state 39
+
+    (10) sentence -> NOUN ADJECTIVE VERB .
+    (22) sentence -> NOUN ADJECTIVE VERB . CONJUNCTION VERB
+
+    $end            reduce using rule 10 (sentence -> NOUN ADJECTIVE VERB .)
+    CONJUNCTION     shift and go to state 72
+
+
+state 40
+
+    (20) sentence -> NOUN ADJECTIVE PREPOSITION . NOUN ADJECTIVE
+
+    NOUN            shift and go to state 73
+
+
+state 41
+
+    (6) sentence -> NOUN PREPOSITION PREPOSITION . NOUN VERB ADVERB
+
+    NOUN            shift and go to state 74
+
+
+state 42
+
+    (26) sentence -> NOUN PRONOUN VERB . CONJUNCTION PRONOUN PRONOUN VERB
+    (30) sentence -> NOUN PRONOUN VERB . ADVERB VERB
+
+    CONJUNCTION     shift and go to state 75
+    ADVERB          shift and go to state 76
+
+
+state 43
+
+    (19) sentence -> NOUN CONJUNCTION VERB . CONTRUDICTION CONJUNCTION VERB
+    (40) sentence -> NOUN CONJUNCTION VERB . ADVERB VERB
+
+    CONTRUDICTION   shift and go to state 77
+    ADVERB          shift and go to state 78
+
+
+state 44
+
+    (2) sentence -> VERB CONJUNCTION ARTICAL . NOUN VERB ADJECTIVE
+
+    NOUN            shift and go to state 79
+
+
+state 45
+
+    (12) sentence -> VERB NOUN VERB . NOUN NOUN
+    (13) sentence -> VERB NOUN VERB . NOUN
+
+    NOUN            shift and go to state 80
+
+
+state 46
+
+    (11) sentence -> VERB NOUN CONJUNCTION . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 81
+
+
+state 47
+
+    (38) sentence -> VERB ADJECTIVE CONJUNCTION . VERB ADJECTIVE
+
+    VERB            shift and go to state 82
+
+
+state 48
+
+    (9) sentence -> VERB PREPOSITION VERB . PREPOSITION PRONOUN VERB
+
+    PREPOSITION     shift and go to state 83
+
+
+state 49
+
+    (16) sentence -> CONJUNCTION VERB CONJUNCTION . NOUN VERB
+
+    NOUN            shift and go to state 84
+
+
+state 50
+
+    (17) sentence -> CONJUNCTION VERB NOUN . VERB CONJUNCTION VERB PRONOUN
+
+    VERB            shift and go to state 85
+
+
+state 51
+
+    (31) sentence -> ARTICAL NOUN ARTICAL . NOUN VERB ADJECTIVE
+    (41) sentence -> ARTICAL NOUN ARTICAL . NOUN VERB ADVERB ADJECTIVE
+
+    NOUN            shift and go to state 86
+
+
+state 52
+
+    (23) sentence -> ARTICAL NOUN VERB . ARTICAL ADJECTIVE NOUN
+    (34) sentence -> ARTICAL NOUN VERB . ADVERB ADJECTIVE
+    (42) sentence -> ARTICAL NOUN VERB . ADJECTIVE PREPOSITION NOUN
+
+    ARTICAL         shift and go to state 87
+    ADVERB          shift and go to state 89
+    ADJECTIVE       shift and go to state 88
+
+
+state 53
+
+    (27) sentence -> ARTICAL NOUN ADVERB . VERB
+
+    VERB            shift and go to state 90
+
+
+state 54
+
+    (29) sentence -> ARTICAL PRONOUN VERB . NOUN ARTICAL VERB
+
+    NOUN            shift and go to state 91
+
+
+state 55
+
+    (37) sentence -> PRONOUN ADVERB PRONOUN . VERB ADVERB PRONOUN VERB
+
+    VERB            shift and go to state 92
+
+
+state 56
+
+    (4) sentence -> PRONOUN ADVERB VERB . CONJUNCTION PRONOUN VERB GERUND
+    (35) sentence -> PRONOUN ADVERB VERB . ADVERB VERB
+
+    CONJUNCTION     shift and go to state 94
+    ADVERB          shift and go to state 93
+
+
+state 57
+
+    (7) sentence -> PRONOUN VERB PRONOUN . CONJUNCTION PRONOUN CONTRUDICTION PRONOUN
+
+    CONJUNCTION     shift and go to state 95
+
+
+state 58
+
+    (39) sentence -> PRONOUN VERB ADVERB . VERB NOUN
+
+    VERB            shift and go to state 96
+
+
+state 59
+
+    (36) sentence -> PRONOUN CONJUNCTION VERB . CONJUNCTION VERB
+
+    CONJUNCTION     shift and go to state 97
+
+
+state 60
+
+    (24) sentence -> ADVERB VERB ADJECTIVE . CONJUNCTION ARTICAL NOUN VERB ADJECTIVE
+
+    CONJUNCTION     shift and go to state 98
+
+
+state 61
+
+    (25) sentence -> ADVERB VERB ARTICAL . NOUN PRONOUN PRONOUN VERB PREPOSITION VERB
+
+    NOUN            shift and go to state 99
+
+
+state 62
+
+    (32) sentence -> ADVERB PRONOUN VERB . ARTICAL NOUN PREPOSITION ARTICAL NOUN
+
+    ARTICAL         shift and go to state 100
+
+
+state 63
+
+    (5) sentence -> CONTRUDICTION VERB ARTICAL . NOUN CONJUNCTION VERB PRONOUN
+
+    NOUN            shift and go to state 101
+
+
+state 64
+
+    (14) sentence -> PREPOSITION VERB PREPOSITION . VERB
+
+    VERB            shift and go to state 102
+
+
+state 65
+
+    (15) sentence -> ADJECTIVE ADJECTIVE PREPOSITION ADJECTIVE .
+
+    $end            reduce using rule 15 (sentence -> ADJECTIVE ADJECTIVE PREPOSITION ADJECTIVE .)
+
+
+state 66
+
+    (1) sentence -> ADJECTIVE NOUN VERB ADJECTIVE . NOUN
+
+    NOUN            shift and go to state 103
+
+
+state 67
+
+    (21) sentence -> ADJECTIVE NOUN VERB ARTICAL . NOUN ADJECTIVE
+
+    NOUN            shift and go to state 104
+
+
+state 68
+
+    (18) sentence -> NOUN NOUN VERB NOUN .
+
+    $end            reduce using rule 18 (sentence -> NOUN NOUN VERB NOUN .)
+
+
+state 69
+
+    (33) sentence -> NOUN VERB ARTICAL NOUN .
+
+    $end            reduce using rule 33 (sentence -> NOUN VERB ARTICAL NOUN .)
+
+
+state 70
+
+    (3) sentence -> NOUN VERB ARTICAL ADJECTIVE . NOUN
+
+    NOUN            shift and go to state 105
+
+
+state 71
+
+    (28) sentence -> NOUN VERB PREPOSITION PRONOUN . PRONOUN
+
+    PRONOUN         shift and go to state 106
+
+
+state 72
+
+    (22) sentence -> NOUN ADJECTIVE VERB CONJUNCTION . VERB
+
+    VERB            shift and go to state 107
+
+
+state 73
+
+    (20) sentence -> NOUN ADJECTIVE PREPOSITION NOUN . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 108
+
+
+state 74
+
+    (6) sentence -> NOUN PREPOSITION PREPOSITION NOUN . VERB ADVERB
+
+    VERB            shift and go to state 109
+
+
+state 75
+
+    (26) sentence -> NOUN PRONOUN VERB CONJUNCTION . PRONOUN PRONOUN VERB
+
+    PRONOUN         shift and go to state 110
+
+
+state 76
+
+    (30) sentence -> NOUN PRONOUN VERB ADVERB . VERB
+
+    VERB            shift and go to state 111
+
+
+state 77
+
+    (19) sentence -> NOUN CONJUNCTION VERB CONTRUDICTION . CONJUNCTION VERB
+
+    CONJUNCTION     shift and go to state 112
+
+
+state 78
+
+    (40) sentence -> NOUN CONJUNCTION VERB ADVERB . VERB
+
+    VERB            shift and go to state 113
+
+
+state 79
+
+    (2) sentence -> VERB CONJUNCTION ARTICAL NOUN . VERB ADJECTIVE
+
+    VERB            shift and go to state 114
+
+
+state 80
+
+    (12) sentence -> VERB NOUN VERB NOUN . NOUN
+    (13) sentence -> VERB NOUN VERB NOUN .
+
+    NOUN            shift and go to state 115
+    $end            reduce using rule 13 (sentence -> VERB NOUN VERB NOUN .)
+
+
+state 81
+
+    (11) sentence -> VERB NOUN CONJUNCTION ADJECTIVE .
+
+    $end            reduce using rule 11 (sentence -> VERB NOUN CONJUNCTION ADJECTIVE .)
+
+
+state 82
+
+    (38) sentence -> VERB ADJECTIVE CONJUNCTION VERB . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 116
+
+
+state 83
+
+    (9) sentence -> VERB PREPOSITION VERB PREPOSITION . PRONOUN VERB
+
+    PRONOUN         shift and go to state 117
+
+
+state 84
+
+    (16) sentence -> CONJUNCTION VERB CONJUNCTION NOUN . VERB
+
+    VERB            shift and go to state 118
+
+
+state 85
+
+    (17) sentence -> CONJUNCTION VERB NOUN VERB . CONJUNCTION VERB PRONOUN
+
+    CONJUNCTION     shift and go to state 119
+
+
+state 86
+
+    (31) sentence -> ARTICAL NOUN ARTICAL NOUN . VERB ADJECTIVE
+    (41) sentence -> ARTICAL NOUN ARTICAL NOUN . VERB ADVERB ADJECTIVE
+
+    VERB            shift and go to state 120
+
+
+state 87
+
+    (23) sentence -> ARTICAL NOUN VERB ARTICAL . ADJECTIVE NOUN
+
+    ADJECTIVE       shift and go to state 121
+
+
+state 88
+
+    (42) sentence -> ARTICAL NOUN VERB ADJECTIVE . PREPOSITION NOUN
+
+    PREPOSITION     shift and go to state 122
+
+
+state 89
+
+    (34) sentence -> ARTICAL NOUN VERB ADVERB . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 123
+
+
+state 90
+
+    (27) sentence -> ARTICAL NOUN ADVERB VERB .
+
+    $end            reduce using rule 27 (sentence -> ARTICAL NOUN ADVERB VERB .)
+
+
+state 91
+
+    (29) sentence -> ARTICAL PRONOUN VERB NOUN . ARTICAL VERB
+
+    ARTICAL         shift and go to state 124
+
+
+state 92
+
+    (37) sentence -> PRONOUN ADVERB PRONOUN VERB . ADVERB PRONOUN VERB
+
+    ADVERB          shift and go to state 125
+
+
+state 93
+
+    (35) sentence -> PRONOUN ADVERB VERB ADVERB . VERB
+
+    VERB            shift and go to state 126
+
+
+state 94
+
+    (4) sentence -> PRONOUN ADVERB VERB CONJUNCTION . PRONOUN VERB GERUND
+
+    PRONOUN         shift and go to state 127
+
+
+state 95
+
+    (7) sentence -> PRONOUN VERB PRONOUN CONJUNCTION . PRONOUN CONTRUDICTION PRONOUN
+
+    PRONOUN         shift and go to state 128
+
+
+state 96
+
+    (39) sentence -> PRONOUN VERB ADVERB VERB . NOUN
+
+    NOUN            shift and go to state 129
+
+
+state 97
+
+    (36) sentence -> PRONOUN CONJUNCTION VERB CONJUNCTION . VERB
+
+    VERB            shift and go to state 130
+
+
+state 98
+
+    (24) sentence -> ADVERB VERB ADJECTIVE CONJUNCTION . ARTICAL NOUN VERB ADJECTIVE
+
+    ARTICAL         shift and go to state 131
+
+
+state 99
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN . PRONOUN PRONOUN VERB PREPOSITION VERB
+
+    PRONOUN         shift and go to state 132
+
+
+state 100
+
+    (32) sentence -> ADVERB PRONOUN VERB ARTICAL . NOUN PREPOSITION ARTICAL NOUN
+
+    NOUN            shift and go to state 133
+
+
+state 101
+
+    (5) sentence -> CONTRUDICTION VERB ARTICAL NOUN . CONJUNCTION VERB PRONOUN
+
+    CONJUNCTION     shift and go to state 134
+
+
+state 102
+
+    (14) sentence -> PREPOSITION VERB PREPOSITION VERB .
+
+    $end            reduce using rule 14 (sentence -> PREPOSITION VERB PREPOSITION VERB .)
+
+
+state 103
+
+    (1) sentence -> ADJECTIVE NOUN VERB ADJECTIVE NOUN .
+
+    $end            reduce using rule 1 (sentence -> ADJECTIVE NOUN VERB ADJECTIVE NOUN .)
+
+
+state 104
+
+    (21) sentence -> ADJECTIVE NOUN VERB ARTICAL NOUN . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 135
+
+
+state 105
+
+    (3) sentence -> NOUN VERB ARTICAL ADJECTIVE NOUN .
+
+    $end            reduce using rule 3 (sentence -> NOUN VERB ARTICAL ADJECTIVE NOUN .)
+
+
+state 106
+
+    (28) sentence -> NOUN VERB PREPOSITION PRONOUN PRONOUN .
+
+    $end            reduce using rule 28 (sentence -> NOUN VERB PREPOSITION PRONOUN PRONOUN .)
+
+
+state 107
+
+    (22) sentence -> NOUN ADJECTIVE VERB CONJUNCTION VERB .
+
+    $end            reduce using rule 22 (sentence -> NOUN ADJECTIVE VERB CONJUNCTION VERB .)
+
+
+state 108
+
+    (20) sentence -> NOUN ADJECTIVE PREPOSITION NOUN ADJECTIVE .
+
+    $end            reduce using rule 20 (sentence -> NOUN ADJECTIVE PREPOSITION NOUN ADJECTIVE .)
+
+
+state 109
+
+    (6) sentence -> NOUN PREPOSITION PREPOSITION NOUN VERB . ADVERB
+
+    ADVERB          shift and go to state 136
+
+
+state 110
+
+    (26) sentence -> NOUN PRONOUN VERB CONJUNCTION PRONOUN . PRONOUN VERB
+
+    PRONOUN         shift and go to state 137
+
+
+state 111
+
+    (30) sentence -> NOUN PRONOUN VERB ADVERB VERB .
+
+    $end            reduce using rule 30 (sentence -> NOUN PRONOUN VERB ADVERB VERB .)
+
+
+state 112
+
+    (19) sentence -> NOUN CONJUNCTION VERB CONTRUDICTION CONJUNCTION . VERB
+
+    VERB            shift and go to state 138
+
+
+state 113
+
+    (40) sentence -> NOUN CONJUNCTION VERB ADVERB VERB .
+
+    $end            reduce using rule 40 (sentence -> NOUN CONJUNCTION VERB ADVERB VERB .)
+
+
+state 114
+
+    (2) sentence -> VERB CONJUNCTION ARTICAL NOUN VERB . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 139
+
+
+state 115
+
+    (12) sentence -> VERB NOUN VERB NOUN NOUN .
+
+    $end            reduce using rule 12 (sentence -> VERB NOUN VERB NOUN NOUN .)
+
+
+state 116
+
+    (38) sentence -> VERB ADJECTIVE CONJUNCTION VERB ADJECTIVE .
+
+    $end            reduce using rule 38 (sentence -> VERB ADJECTIVE CONJUNCTION VERB ADJECTIVE .)
+
+
+state 117
+
+    (9) sentence -> VERB PREPOSITION VERB PREPOSITION PRONOUN . VERB
+
+    VERB            shift and go to state 140
+
+
+state 118
+
+    (16) sentence -> CONJUNCTION VERB CONJUNCTION NOUN VERB .
+
+    $end            reduce using rule 16 (sentence -> CONJUNCTION VERB CONJUNCTION NOUN VERB .)
+
+
+state 119
+
+    (17) sentence -> CONJUNCTION VERB NOUN VERB CONJUNCTION . VERB PRONOUN
+
+    VERB            shift and go to state 141
+
+
+state 120
+
+    (31) sentence -> ARTICAL NOUN ARTICAL NOUN VERB . ADJECTIVE
+    (41) sentence -> ARTICAL NOUN ARTICAL NOUN VERB . ADVERB ADJECTIVE
+
+    ADJECTIVE       shift and go to state 142
+    ADVERB          shift and go to state 143
+
+
+state 121
+
+    (23) sentence -> ARTICAL NOUN VERB ARTICAL ADJECTIVE . NOUN
+
+    NOUN            shift and go to state 144
+
+
+state 122
+
+    (42) sentence -> ARTICAL NOUN VERB ADJECTIVE PREPOSITION . NOUN
+
+    NOUN            shift and go to state 145
+
+
+state 123
+
+    (34) sentence -> ARTICAL NOUN VERB ADVERB ADJECTIVE .
+
+    $end            reduce using rule 34 (sentence -> ARTICAL NOUN VERB ADVERB ADJECTIVE .)
+
+
+state 124
+
+    (29) sentence -> ARTICAL PRONOUN VERB NOUN ARTICAL . VERB
+
+    VERB            shift and go to state 146
+
+
+state 125
+
+    (37) sentence -> PRONOUN ADVERB PRONOUN VERB ADVERB . PRONOUN VERB
+
+    PRONOUN         shift and go to state 147
+
+
+state 126
+
+    (35) sentence -> PRONOUN ADVERB VERB ADVERB VERB .
+
+    $end            reduce using rule 35 (sentence -> PRONOUN ADVERB VERB ADVERB VERB .)
+
+
+state 127
+
+    (4) sentence -> PRONOUN ADVERB VERB CONJUNCTION PRONOUN . VERB GERUND
+
+    VERB            shift and go to state 148
+
+
+state 128
+
+    (7) sentence -> PRONOUN VERB PRONOUN CONJUNCTION PRONOUN . CONTRUDICTION PRONOUN
+
+    CONTRUDICTION   shift and go to state 149
+
+
+state 129
+
+    (39) sentence -> PRONOUN VERB ADVERB VERB NOUN .
+
+    $end            reduce using rule 39 (sentence -> PRONOUN VERB ADVERB VERB NOUN .)
+
+
+state 130
+
+    (36) sentence -> PRONOUN CONJUNCTION VERB CONJUNCTION VERB .
+
+    $end            reduce using rule 36 (sentence -> PRONOUN CONJUNCTION VERB CONJUNCTION VERB .)
+
+
+state 131
+
+    (24) sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL . NOUN VERB ADJECTIVE
+
+    NOUN            shift and go to state 150
+
+
+state 132
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN PRONOUN . PRONOUN VERB PREPOSITION VERB
+
+    PRONOUN         shift and go to state 151
+
+
+state 133
+
+    (32) sentence -> ADVERB PRONOUN VERB ARTICAL NOUN . PREPOSITION ARTICAL NOUN
+
+    PREPOSITION     shift and go to state 152
+
+
+state 134
+
+    (5) sentence -> CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION . VERB PRONOUN
+
+    VERB            shift and go to state 153
+
+
+state 135
+
+    (21) sentence -> ADJECTIVE NOUN VERB ARTICAL NOUN ADJECTIVE .
+
+    $end            reduce using rule 21 (sentence -> ADJECTIVE NOUN VERB ARTICAL NOUN ADJECTIVE .)
+
+
+state 136
+
+    (6) sentence -> NOUN PREPOSITION PREPOSITION NOUN VERB ADVERB .
+
+    $end            reduce using rule 6 (sentence -> NOUN PREPOSITION PREPOSITION NOUN VERB ADVERB .)
+
+
+state 137
+
+    (26) sentence -> NOUN PRONOUN VERB CONJUNCTION PRONOUN PRONOUN . VERB
+
+    VERB            shift and go to state 154
+
+
+state 138
+
+    (19) sentence -> NOUN CONJUNCTION VERB CONTRUDICTION CONJUNCTION VERB .
+
+    $end            reduce using rule 19 (sentence -> NOUN CONJUNCTION VERB CONTRUDICTION CONJUNCTION VERB .)
+
+
+state 139
+
+    (2) sentence -> VERB CONJUNCTION ARTICAL NOUN VERB ADJECTIVE .
+
+    $end            reduce using rule 2 (sentence -> VERB CONJUNCTION ARTICAL NOUN VERB ADJECTIVE .)
+
+
+state 140
+
+    (9) sentence -> VERB PREPOSITION VERB PREPOSITION PRONOUN VERB .
+
+    $end            reduce using rule 9 (sentence -> VERB PREPOSITION VERB PREPOSITION PRONOUN VERB .)
+
+
+state 141
+
+    (17) sentence -> CONJUNCTION VERB NOUN VERB CONJUNCTION VERB . PRONOUN
+
+    PRONOUN         shift and go to state 155
+
+
+state 142
+
+    (31) sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADJECTIVE .
+
+    $end            reduce using rule 31 (sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADJECTIVE .)
+
+
+state 143
+
+    (41) sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADVERB . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 156
+
+
+state 144
+
+    (23) sentence -> ARTICAL NOUN VERB ARTICAL ADJECTIVE NOUN .
+
+    $end            reduce using rule 23 (sentence -> ARTICAL NOUN VERB ARTICAL ADJECTIVE NOUN .)
+
+
+state 145
+
+    (42) sentence -> ARTICAL NOUN VERB ADJECTIVE PREPOSITION NOUN .
+
+    $end            reduce using rule 42 (sentence -> ARTICAL NOUN VERB ADJECTIVE PREPOSITION NOUN .)
+
+
+state 146
+
+    (29) sentence -> ARTICAL PRONOUN VERB NOUN ARTICAL VERB .
+
+    $end            reduce using rule 29 (sentence -> ARTICAL PRONOUN VERB NOUN ARTICAL VERB .)
+
+
+state 147
+
+    (37) sentence -> PRONOUN ADVERB PRONOUN VERB ADVERB PRONOUN . VERB
+
+    VERB            shift and go to state 157
+
+
+state 148
+
+    (4) sentence -> PRONOUN ADVERB VERB CONJUNCTION PRONOUN VERB . GERUND
+
+    GERUND          shift and go to state 158
+
+
+state 149
+
+    (7) sentence -> PRONOUN VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION . PRONOUN
+
+    PRONOUN         shift and go to state 159
+
+
+state 150
+
+    (24) sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN . VERB ADJECTIVE
+
+    VERB            shift and go to state 160
+
+
+state 151
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN . VERB PREPOSITION VERB
+
+    VERB            shift and go to state 161
+
+
+state 152
+
+    (32) sentence -> ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION . ARTICAL NOUN
+
+    ARTICAL         shift and go to state 162
+
+
+state 153
+
+    (5) sentence -> CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION VERB . PRONOUN
+
+    PRONOUN         shift and go to state 163
+
+
+state 154
+
+    (26) sentence -> NOUN PRONOUN VERB CONJUNCTION PRONOUN PRONOUN VERB .
+
+    $end            reduce using rule 26 (sentence -> NOUN PRONOUN VERB CONJUNCTION PRONOUN PRONOUN VERB .)
+
+
+state 155
+
+    (17) sentence -> CONJUNCTION VERB NOUN VERB CONJUNCTION VERB PRONOUN .
+
+    $end            reduce using rule 17 (sentence -> CONJUNCTION VERB NOUN VERB CONJUNCTION VERB PRONOUN .)
+
+
+state 156
+
+    (41) sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADVERB ADJECTIVE .
+
+    $end            reduce using rule 41 (sentence -> ARTICAL NOUN ARTICAL NOUN VERB ADVERB ADJECTIVE .)
+
+
+state 157
+
+    (37) sentence -> PRONOUN ADVERB PRONOUN VERB ADVERB PRONOUN VERB .
+
+    $end            reduce using rule 37 (sentence -> PRONOUN ADVERB PRONOUN VERB ADVERB PRONOUN VERB .)
+
+
+state 158
+
+    (4) sentence -> PRONOUN ADVERB VERB CONJUNCTION PRONOUN VERB GERUND .
+
+    $end            reduce using rule 4 (sentence -> PRONOUN ADVERB VERB CONJUNCTION PRONOUN VERB GERUND .)
+
+
+state 159
+
+    (7) sentence -> PRONOUN VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN .
+
+    $end            reduce using rule 7 (sentence -> PRONOUN VERB PRONOUN CONJUNCTION PRONOUN CONTRUDICTION PRONOUN .)
+
+
+state 160
+
+    (24) sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB . ADJECTIVE
+
+    ADJECTIVE       shift and go to state 164
+
+
+state 161
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB . PREPOSITION VERB
+
+    PREPOSITION     shift and go to state 165
+
+
+state 162
+
+    (32) sentence -> ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL . NOUN
+
+    NOUN            shift and go to state 166
+
+
+state 163
+
+    (5) sentence -> CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION VERB PRONOUN .
+
+    $end            reduce using rule 5 (sentence -> CONTRUDICTION VERB ARTICAL NOUN CONJUNCTION VERB PRONOUN .)
+
+
+state 164
+
+    (24) sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE .
+
+    $end            reduce using rule 24 (sentence -> ADVERB VERB ADJECTIVE CONJUNCTION ARTICAL NOUN VERB ADJECTIVE .)
+
+
+state 165
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION . VERB
+
+    VERB            shift and go to state 167
+
+
+state 166
+
+    (32) sentence -> ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN .
+
+    $end            reduce using rule 32 (sentence -> ADVERB PRONOUN VERB ARTICAL NOUN PREPOSITION ARTICAL NOUN .)
+
+
+state 167
+
+    (25) sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB .
+
+    $end            reduce using rule 25 (sentence -> ADVERB VERB ARTICAL NOUN PRONOUN PRONOUN VERB PREPOSITION VERB .)
+
